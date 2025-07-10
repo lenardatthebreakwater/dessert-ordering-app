@@ -11,7 +11,9 @@ const redHatText = Red_Hat_Text({
 export const metadata: Metadata = {
   title: "Dessert Ordering App",
   description: "Order delicious desserts online",
-    generator: 'v0.dev'
+  icons: {
+    icon: "/assets/images/favicon-32x32.png",
+  },
 }
 
 export default function RootLayout({
